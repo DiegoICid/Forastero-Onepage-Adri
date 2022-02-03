@@ -1,0 +1,303 @@
+/* Imagenes */
+
+// $imgNosotros: url("../assets/img/dark-chocolate-broken-up-700-350-1f49100.jpg");
+/* $imgNosotros: url("../assets/img/pexels-lisa-fotios-918328.jpg"); */
+$imgNosotros: url("../assets/img/pexels-lisa-fotios-1009841 RESIZED.jpg");
+
+/* $imgSustentable: url("../assets/img/Schokolade-Sie-ist-nicht-nur-lecker-sondern-auch-gesund.jpg"); */
+
+$imgFondo: url("../assets/img/fondoProducto.jpg");
+
+
+/* Fonts */
+
+/* $textosFonts: 'Cormorant Garamond', serif; */
+$textosFonts: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$textosColor: #fff;
+
+
+/* Definiciones genericas */
+
+.claseModelo {
+  font-family: $textosFonts;
+  color: $textosColor;
+}
+
+@mixin textoBasico {
+  font-family: $textosFonts;
+  color: $textosColor;
+  
+}
+
+/* Repositorio de fonts 
+
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Merriweather', serif;
+
+
+*/
+
+/* CSS customizado */
+
+#services {
+  height: 100vh;
+  /* background-image: $imgNosotros; */
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: auto;
+}
+
+
+.text-center {
+  @include textoBasico;
+
+  h2 {
+    font-family: $textosFonts;
+  }
+  
+  
+}
+
+.nosotrosText {
+  margin-top: 5%;
+  text-align: center;
+  /* color: azure; */
+  @include textoBasico;
+  animation-duration: 2s;
+  
+}
+
+#nosotrosText__id {
+  animation-delay: 1.5s;
+}
+
+#nosotrosText__id-p {
+  margin-top: 25px !important;
+}
+
+#about {
+  /* background-color: #212529; */
+  /* background-image: $imgSustentable; */
+  /* background-repeat: no-repeat;
+  background-position: center; */
+  height: 100vh;
+}
+
+#nosotros2 {
+  background-color: #212529;
+  /* background-image: $imgNosotros; */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#portfolio {
+  /* background-image: $imgFondo; */
+  background-color: #212529 !important;
+  padding-top: 96px;
+}
+
+#sustentable-h2 {
+        color: $textosColor;
+    }
+
+#sustentable-h3 {
+  color: $textosColor !important;
+}
+
+.elementToFadeInAndOut {
+        position: block;
+        -webkit-animation: fadeinout 4s linear forwards;
+        animation: fadeinout 4s linear forwards;
+        opacity: 0;
+    }
+    
+@-webkit-keyframes fadeinout {
+      50% { opacity: 1; }
+    }
+    
+@keyframes fadeinout {
+      50% { opacity: 1; }
+    }
+
+.text-muted {
+        --bs-text-opacity: 1;
+        color: $textosColor;
+      }
+
+#submitButton {
+    background-color: #ffffff36;
+    border: none;
+}
+
+#contacto-textH3 {
+  color: $textosColor !important;
+}
+
+section#contact {
+  background-color: #212529;
+ /*  background-image: url("../assets/img/Receta-de-ALFAJOR-MARPLATENSE.jpg");
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+
+#nosotros-textH3 {
+  color: $textosColor !important;
+  animation-duration: 3s !important;
+}
+
+#productos-textH3 {
+  margin-bottom: 20px;
+}
+
+.animate_fadeOut {
+  animation-duration: 3s;
+}
+
+#contactoRow {
+  flex-direction: column;
+  align-content: space-around;
+}
+
+#contactoMapa {
+  border: 1; 
+  width: 100% !important; 
+  height: 350px;
+}
+
+
+#nosotrosTextito {
+  padding-top: 50px;
+  width: 30%;
+}
+
+.portfolio-caption-heading {
+  color: #212529 !important;
+}
+
+#nosotrosPicture {
+  display: flex;
+  justify-content: center;
+}
+
+#welcome {
+  color: #6c757d !important;
+}
+
+#nosotrosLayout{
+  display: flex;
+  .nosotrosText2 {
+    width: 30%;
+    padding-right: 20px;
+  }
+}
+
+#nosotrosSvg {
+  width: 10px;
+}
+
+#sustentable-textoLG {
+  padding-top: 20%;
+  h6 {
+    font-family: 'Lato', sans-serif !important;
+
+  }
+}
+
+.modal-body {
+  color: black !important;
+}
+
+
+@media (max-width: 768px) {
+  .nosotrosText2 {
+    display: none;
+  }
+
+  #contactoMapa {
+    display: none;
+  }
+
+  #nosotrosSvg {
+    width: 30%;
+  }
+
+  #nosotrosPicture {
+    display: none;    
+  }
+  #nosotros2 {
+    background-color: #212529;
+    background-image: $imgNosotros; 
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #nosotrosText__id-p {
+    margin-top: 25px !important;
+  }
+  
+}
+
+#myVideo {
+  /* width: 100%; */
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  
+}
+
+@media (max-width: 768px) {
+  #nosotrosText__id {
+    padding-top: 100px !important;
+    margin-top: 130px;
+    
+  }
+
+  #welcome {
+    color: white !important;
+  }
+
+  #nosotrosSvg {
+    display: none;
+  }
+
+  #sustentable-textoLG {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #nosotrosText__id {
+    display: none;
+  }
+  
+  #nosotrosText__id2 {
+    display: none;
+  }
+
+
+}
+
+#contactForm {
+  animation-delay: 0.5s;
+}
+
+#footerSustentable {
+  margin-top: 20px;
+}
+
+.footer {
+  background-color: #fff;
+}
+
+#mainNav {
+  padding-top: 18px !important;
+  padding-bottom: 18px !important;
+}
+

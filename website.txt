@@ -1,0 +1,103 @@
+* INICIO
+
+Sin botón
+Probemos con BIENVENIDOS, a ver cómo queda sobre la foto de fondo.
+Foto: inicio_001.jpg
+
+
+----------------------------------
+
+
+* NOSOTROS
+
+>> Creo que el texto actual está en Negrita, debería estar Normal. Sin título, simplemente el texto siguiente y la foto nosotros_001.jpg
+
+
+Un Forastero es alguien o algo que ha venido de otro lugar. Entonces nosotros y nuestra receta nos hace Forasteros.
+
+Somos sinergia de todo lo necesario para lograr un buen producto, tanto en lo técnico como en lo humano. Somos la suma de pasión, empeño y compromiso, por hacer y mejorar, siempre mejorar.
+
+En Dina Huapi, Patagonia Argentina, vamos haciendo camino al alfajor que queda en el paladar y en la memoria. Inspirados en nuestro lugar para crear nuevos sabores y ampliar poco a poco la variedad.
+
+Trabajamos con envoltorio totalmente amigable con el medio ambiente ya que es biodegradable y compostable. Pensamos cómo evitar el impacto ambiental utilizando envases primarios.
+
+Hoy en Forastero somos dos o... muchos más que dos? Definitivamente muchos más que dos.
+
+
+------------------------------------------------------
+
+
+* PRODUCTOS
+
+>> Quisiera que las fotos tengan el mismo alto que el ancho, que sean cuadradas + el espacio del texto de abajo.
+
+
+Foto: prod_001.jpg
+CHOCOLATE NEGRO
+2 tapas
+65 g
+masa de cacao
+baño de chocolate semi amargo
+relleno de dulce de leche
+
+Foto: prod_002.jpg
+CHOCOLATE BLANCO
+2 tapas
+65 g
+masa de cacao
+baño de chocolate blanco
+relleno de dulce de leche
+
+Foto: prod_003.jpg
+FRUTOS DEL BOSQUE
+2 tapas
+65 g
+masa de vainilla
+baño de chocolate semi amargo
+relleno de frutos del bosque
+
+
+------------------------------------------------------
+
+
+* SUSTENTABLE
+
+Foto de fondo: sustentable_001.jpg
+Texto:
+(* = subtítulo)
+
+
+Para nosotros, el medio ambiente es muy importante, por eso, para envolver nuestros alfajores, usamos un tipo de material que es BIODEGRADABLE.
+
+Te contamos un poco más acerca de nuestro envoltorio:
+
+*Envases primarios y secundarios
+Se le llama envase primario a la envoltura o recipiente que está en contacto con el producto, en este caso con el alfajor. Y la caja que contiene a los alfajores ya envueltos se llama envase secundario.
+Mayormente los envases primarios son de un solo uso, es decir que una vez abierto el alfajor, el envoltorio deja de servir y no es reutilizable. 
+Nos preocupa hacer miles de alfajores, que luego de un tiempo, le dejen al planeta miles de envoltorios que tardarían muchísimos años en degradarse (quizás 150!). 
+
+*Materia prima sustentable
+También es importante saber que no todos los plásticos son fáciles o posibles de reciclar, menos aún estos envoltorios pequeños que normalmente terminan con la basura "común". Por eso nos propusimos utilizar un material que se biodegrade y en la menor cantidad posible. Hablamos de un material fabricado a partir de celulosa regenerada, obtenida a través de cultivos sustentables de fibra de algodón y de cáñamo. Totalmente amigable con el medio ambiente y no contaminante.
+
+*Envase compostable!
+La humedad por tiempo prolongado hace que las láminas comiencen a degradarse. Dentro de un compost tiene un promedio de descomposición de 60 días, dependiendo el grado de humedad donde se encuentre.
+Si no tenés compost, podés enterrarlo para que se degrade naturalmente. Recordá que la humedad es la clave! algún lugar que reciba riego está bien. Si lo hacés en tu patio, es importante que sepas que no produce efectos adversos en el caso de que se lo coman animales.
+
+
+------------------------------------------------------
+
+
+* CONTACTANOS
+
+Si se puede, donde dice "tu nombre, tu mail..." que no esté en Negrita.
+
+El mapa lo eliminamos.
+
+El resto de texto que esté en el pié de página (franja blanca):
+
+(ícono de globito) Dina Huapi, Río Negro, Argentina.
+(+54 9) 11 6605 0906
+alfajorforastero@gmail.com
+
+INSTAGRAM: @alfajorforastero
+WHATSAPP: +5491166050906
