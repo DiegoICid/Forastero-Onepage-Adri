@@ -235,6 +235,10 @@ section#contact {
   font-weight: 350;
 }
 
+#features {
+  padding-top: 0px !important;
+}
+
 @media (max-width: 768px) {
   .nosotrosText2 {
     display: none;
@@ -281,6 +285,9 @@ section#contact {
   #nosotrosText__id {
     padding-top: 100px !important;
     margin-top: 130px;
+  }
+  #nosotros2 {
+    background-size: 400 px 200px;
   }
   #welcome {
     color: white !important;
