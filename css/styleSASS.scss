@@ -2,11 +2,13 @@
 
 // $imgNosotros: url("../assets/img/dark-chocolate-broken-up-700-350-1f49100.jpg");
 /* $imgNosotros: url("../assets/img/pexels-lisa-fotios-918328.jpg"); */
-$imgNosotros: url("../assets/img/pexels-lisa-fotios-1009841 RESIZED.jpg");
+//$imgNosotros: url("../assets/img/pexels-lisa-fotios-1009841 RESIZED.jpg");
+$imgNosotros: url("../assets/imgAdri/nosotros_001.jpg");
 
-/* $imgSustentable: url("../assets/img/Schokolade-Sie-ist-nicht-nur-lecker-sondern-auch-gesund.jpg"); */
+$imgSustentable: url("../assets/imgAdri/sustentable_001.jpg"); 
 
 $imgFondo: url("../assets/img/fondoProducto.jpg");
+$imgInicio: url("../assets/imgAdri/inicio_001.jpg");
 
 
 /* Fonts */
@@ -39,6 +41,26 @@ $textosColor: #fff;
 */
 
 /* CSS customizado */
+
+header.masthead {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: azure;
+  height: 100vh;
+  //background-image: url("../assets/img/alfajores-de-sablé-y-almendras.jpg");
+  background-image: $imgInicio;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+
+#inicioTextoPpal {
+  padding-top: 20px;
+}
+
 
 #services {
   height: 100vh;
@@ -78,11 +100,12 @@ $textosColor: #fff;
 }
 
 #about {
-  /* background-color: #212529; */
-  /* background-image: $imgSustentable; */
-  /* background-repeat: no-repeat;
-  background-position: center; */
-  height: 100vh;
+  background-color: #212529 !important; 
+  background-image: $imgSustentable; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: 120vh;
+  
 }
 
 #nosotros2 {
@@ -112,6 +135,9 @@ $textosColor: #fff;
         animation: fadeinout 4s linear forwards;
         opacity: 0;
     }
+
+  
+
     
 @-webkit-keyframes fadeinout {
       50% { opacity: 1; }
@@ -183,6 +209,7 @@ section#contact {
 
 #welcome {
   color: #6c757d !important;
+  padding-top: 20px;
 }
 
 #nosotrosLayout{
@@ -198,7 +225,7 @@ section#contact {
 }
 
 #sustentable-textoLG {
-  padding-top: 20%;
+  /* padding-top: 20%; */
   h6 {
     font-family: 'Lato', sans-serif !important;
 
@@ -207,6 +234,10 @@ section#contact {
 
 .modal-body {
   color: black !important;
+}
+
+.form-control ::placeholder {
+  font-weight: 350;
 }
 
 
@@ -250,6 +281,10 @@ section#contact {
   bottom: 0;
   z-index: -1;
   
+}
+
+#footerTexto p {
+  color: black;
 }
 
 @media (max-width: 768px) {
