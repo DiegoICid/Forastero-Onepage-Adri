@@ -243,6 +243,9 @@ section#contact {
   .nosotrosText2 {
     display: none;
   }
+  #about {
+    height: auto;
+  }
   #contactoMapa {
     display: none;
   }
@@ -287,7 +290,7 @@ section#contact {
     margin-top: 130px;
   }
   #nosotros2 {
-    background-size: 400 px 200px;
+    background-size: 50% !important;
   }
   #welcome {
     color: white !important;
